@@ -105,3 +105,69 @@
 
 0.0.0.0 goratu.site
 0.0.0.0 www.goratu.site
+
+# Samsung TV Ads / Tracking
+## Samsung Ads endpoints seen in Samsung TV Plus and PISA ad services
+0.0.0.0 samsungads.com
+0.0.0.0 rtb-config.samsungads.com
+0.0.0.0 rtb-config-canary.samsungads.com
+0.0.0.0 tvp-ads-log.samsungads.com
+0.0.0.0 tvp-ads-log-staging.samsungads.com
+0.0.0.0 tvp-interactive-ad.samsungads.com
+0.0.0.0 tvp-interactive-ad-dev.samsungads.com
+0.0.0.0 prod-reds-device-ad-distributor.ap-northeast-2.elasticbeanstalk.com
+
+## Samsung TV Plus backend / ad delivery (blocking this disables TV Plus)
+0.0.0.0 osbstg-ussvc.samsungqbe.com
+0.0.0.0 osbstg-ussvc-v2.samsungqbe.com
+
+## TV Plus live/reds CDN and ad endpoints
+0.0.0.0 anypoint.tv
+0.0.0.0 live.anypoint.tv
+0.0.0.0 reds-cdn.anypoint.tv
+0.0.0.0 reds-ad.anypoint.tv
+
+## Brightline / interactive and minigame ad SDKs
+0.0.0.0 brightline.tv
+0.0.0.0 cdn-media.brightline.tv
+0.0.0.0 interactive-breaks.com
+0.0.0.0 sdk.interactive-breaks.com
+0.0.0.0 sdk-stage.interactive-breaks.com
+0.0.0.0 xmngdfw.com
+0.0.0.0 library.xmngdfw.com
+
+## Third-party ad, measurement, and analytics SDKs embedded in TV apps
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 client.aps.amazon-adsystem.com
+0.0.0.0 beta.client.aps.amazon-adsystem.com
+0.0.0.0 conviva.com
+0.0.0.0 cws.conviva.com
+0.0.0.0 rc.conviva.com
+0.0.0.0 rcg.conviva.com
+0.0.0.0 appgw.conviva.com
+0.0.0.0 ipv4.appgw.conviva.com
+0.0.0.0 ipv6.appgw.conviva.com
+0.0.0.0 pings.conviva.com
+0.0.0.0 testonly.conviva.com
+0.0.0.0 dai.google.com
+0.0.0.0 imasdk.googleapis.com
+0.0.0.0 google-analytics.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 bid.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 getpublica.com
+0.0.0.0 prebid-log.getpublica.com
+0.0.0.0 openfpcdn.io
+0.0.0.0 m1.openfpcdn.io
+0.0.0.0 scorecardresearch.com
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 udm.scorecardresearch.com
+0.0.0.0 www.google-analytics.com
+
+## HappyCast / screen-mirroring ad test endpoint
+0.0.0.0 ad-test.hpplay.cn
