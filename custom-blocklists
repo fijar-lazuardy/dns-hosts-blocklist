@@ -171,3 +171,6 @@
 
 ## HappyCast / screen-mirroring ad test endpoint
 0.0.0.0 ad-test.hpplay.cn
+
+## T3 ingest endpoint
+0.0.0.0 ingest.t3.codes
